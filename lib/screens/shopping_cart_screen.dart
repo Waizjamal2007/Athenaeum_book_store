@@ -80,7 +80,7 @@ class _ShoppingCartScreenState extends State<ShoppingCartScreen> {
   }
 
   // ----------------------------------------------------------
-  // TOP HEADER
+  // TOP HEADER - FIXED BACK BUTTON
   // ----------------------------------------------------------
 
   Widget _topHeader() {
@@ -90,10 +90,16 @@ class _ShoppingCartScreenState extends State<ShoppingCartScreen> {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const Icon(
-            Icons.arrow_back,
-            size: 30,
-            color: Colors.black,
+          InkWell(
+            onTap: () {
+              Navigator.pop(context);
+            },
+            borderRadius: BorderRadius.circular(20),
+            child: const Icon(
+              Icons.arrow_back,
+              size: 30,
+              color: Colors.black,
+            ),
           ),
 
           const SizedBox(width: 17),

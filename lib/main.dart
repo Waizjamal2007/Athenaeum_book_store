@@ -11,12 +11,11 @@ class AthenaeumApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Athenaeum Book Store',
       debugShowCheckedModeBanner: false,
-      title: 'Athenaeum',
       theme: ThemeData(
-        useMaterial3: false,
+        primarySwatch: Colors.brown,
         scaffoldBackgroundColor: Colors.white,
-        fontFamily: 'Arial',
       ),
       home: const LoginScreen(),
     );
