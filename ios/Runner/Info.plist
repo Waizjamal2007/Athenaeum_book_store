@@ -7,7 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD
 	<string>Aptech Login Register Cart</string>
+=======
+	<string>Athenaeum Book Store</string>
+>>>>>>> 7503edee24610700734049fed33c69153e86964f
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +19,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
+<<<<<<< HEAD
 	<string>aptech_login_register_cart</string>
+=======
+	<string>athenaeum_book_store</string>
+>>>>>>> 7503edee24610700734049fed33c69153e86964f
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

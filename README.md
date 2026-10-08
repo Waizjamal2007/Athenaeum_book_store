@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # aptech_login_register_cart
 
 A new Flutter project.
+=======
+# athenaeum_book_store
+
+A new E-project project 2026.
+>>>>>>> 7503edee24610700734049fed33c69153e86964f
 
 ## Getting Started
 

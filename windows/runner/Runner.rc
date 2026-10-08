@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "aptech_login_register_cart" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "aptech_login_register_cart" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "aptech_login_register_cart.exe" "\0"
             VALUE "ProductName", "aptech_login_register_cart" "\0"
+=======
+            VALUE "FileDescription", "athenaeum_book_store" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "athenaeum_book_store" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "athenaeum_book_store.exe" "\0"
+            VALUE "ProductName", "athenaeum_book_store" "\0"
+>>>>>>> 7503edee24610700734049fed33c69153e86964f
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
