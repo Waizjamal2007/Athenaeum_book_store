@@ -1,20 +1,14 @@
 {
-<<<<<<< HEAD
     "name": "aptech_login_register_cart",
     "short_name": "aptech_login_register_cart",
-=======
     "name": "athenaeum_book_store",
     "short_name": "athenaeum_book_store",
->>>>>>> 7503edee24610700734049fed33c69153e86964f
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-<<<<<<< HEAD
     "description": "A new Flutter project.",
-=======
     "description": "A new E-project project 2026.",
->>>>>>> 7503edee24610700734049fed33c69153e86964f
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

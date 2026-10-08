@@ -50,8 +50,8 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                         size: 32,
                       ),
                     ),
-                    Column(
-                      children: const [
+                    const Column(
+                      children: [
                         Text(
                           'Athenaeum',
                           style: TextStyle(
@@ -306,14 +306,14 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
 
                     const SizedBox(height: 30),
 
-                    Row(
+                    const Row(
                       children: [
-                        const Expanded(
+                        Expanded(
                           child: Divider(
                             color: Color(0xffeeeeee),
                           ),
                         ),
-                        const Padding(
+                        Padding(
                           padding: EdgeInsets.symmetric(horizontal: 15),
                           child: Text(
                             'OR CONTINUE WITH',
@@ -323,7 +323,7 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                             ),
                           ),
                         ),
-                        const Expanded(
+                        Expanded(
                           child: Divider(
                             color: Color(0xffeeeeee),
                           ),

@@ -58,8 +58,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         color: Colors.black,
                       ),
                     ),
-                    Column(
-                      children: const [
+                    const Column(
+                      children: [
                         Text(
                           'Athenaeum',
                           style: TextStyle(
@@ -219,10 +219,10 @@ class _LoginScreenState extends State<LoginScreen> {
 
                     const SizedBox(height: 30),
 
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        const Text(
+                        Text(
                           'Password',
                           style: TextStyle(
                             fontSize: 18,
@@ -234,7 +234,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.w600,
-                            color: const Color(0xff8e332c),
+                            color: Color(0xff8e332c),
                           ),
                         ),
                       ],
@@ -283,18 +283,18 @@ class _LoginScreenState extends State<LoginScreen> {
                     const SizedBox(height: 36),
 
                     // OR CONTINUE WITH
-                    Row(
+                    const Row(
                       children: [
-                        const Expanded(
+                        Expanded(
                           child: Divider(
                             color: Color(0xffeeeeee),
                           ),
                         ),
                         Padding(
-                          padding: const EdgeInsets.symmetric(
+                          padding: EdgeInsets.symmetric(
                             horizontal: 16,
                           ),
-                          child: const Text(
+                          child: Text(
                             'OR CONTINUE WITH',
                             style: TextStyle(
                               fontSize: 14,
@@ -302,7 +302,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             ),
                           ),
                         ),
-                        const Expanded(
+                        Expanded(
                           child: Divider(
                             color: Color(0xffeeeeee),
                           ),
@@ -316,10 +316,10 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         Expanded(
                           child: _socialButton(
-                            child: Row(
+                            child: const Row(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                const Text(
+                                Text(
                                   'G',
                                   style: TextStyle(
                                     fontSize: 22,
@@ -327,8 +327,8 @@ class _LoginScreenState extends State<LoginScreen> {
                                     color: Color(0xff4285F4),
                                   ),
                                 ),
-                                const SizedBox(width: 10),
-                                const Text(
+                                SizedBox(width: 10),
+                                Text(
                                   'Google',
                                   style: TextStyle(
                                     fontSize: 18,
@@ -342,9 +342,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         const SizedBox(width: 14),
                         Expanded(
                           child: _socialButton(
-                            child: Row(
+                            child: const Row(
                               mainAxisAlignment: MainAxisAlignment.center,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.apple,
                                   size: 25,

@@ -15,11 +15,8 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "33CC10EC2044A3C60003C045"
-<<<<<<< HEAD
                      BuildableName = "aptech_login_register_cart.app"
-=======
                      BuildableName = "athenaeum_book_store.app"
->>>>>>> 7503edee24610700734049fed33c69153e86964f
                      BlueprintName = "Runner"
                      ReferencedContainer = "container:Runner.xcodeproj">
                   </BuildableReference>
@@ -37,11 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "33CC10EC2044A3C60003C045"
-<<<<<<< HEAD
                BuildableName = "aptech_login_register_cart.app"
-=======
                BuildableName = "athenaeum_book_store.app"
->>>>>>> 7503edee24610700734049fed33c69153e86964f
                BlueprintName = "Runner"
                ReferencedContainer = "container:Runner.xcodeproj">
             </BuildableReference>
@@ -57,11 +51,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
-<<<<<<< HEAD
             BuildableName = "aptech_login_register_cart.app"
-=======
             BuildableName = "athenaeum_book_store.app"
->>>>>>> 7503edee24610700734049fed33c69153e86964f
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -96,11 +87,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
-<<<<<<< HEAD
             BuildableName = "aptech_login_register_cart.app"
-=======
             BuildableName = "athenaeum_book_store.app"
->>>>>>> 7503edee24610700734049fed33c69153e86964f
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>
@@ -117,11 +105,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "33CC10EC2044A3C60003C045"
-<<<<<<< HEAD
             BuildableName = "aptech_login_register_cart.app"
-=======
             BuildableName = "athenaeum_book_store.app"
->>>>>>> 7503edee24610700734049fed33c69153e86964f
             BlueprintName = "Runner"
             ReferencedContainer = "container:Runner.xcodeproj">
          </BuildableReference>

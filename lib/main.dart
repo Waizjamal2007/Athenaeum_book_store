@@ -7,17 +7,12 @@ void main() {
 
 class AthenaeumApp extends StatelessWidget {
   const AthenaeumApp({super.key});
-
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Athenaeum Book Store',
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.brown,
-        scaffoldBackgroundColor: Colors.white,
-      ),
-      home: const LoginScreen(),
+      title: 'Athenaeum',
+      home: LoginScreen(),
     );
   }
 }
