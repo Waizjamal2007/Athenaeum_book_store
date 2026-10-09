@@ -1,3 +1,4 @@
+import 'package:aptech_login_register_cart/screens/dashboard_screen.dart';
 import 'package:flutter/material.dart';
 import 'screens/login_screen.dart';
 
@@ -12,7 +13,8 @@ class AthenaeumApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Athenaeum',
-      home: LoginScreen(),
+      home: DashboardScreen(),
+
     );
   }
 }
